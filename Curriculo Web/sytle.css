@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(rgb(71, 71, 71),black);
+    /*background-color: rgb(71, 71, 71); /* Cor de fundo */
+    font-family: 'Roboto', sans-serif; /* Fonte */
+    color: whitesmoke; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+h2 {
+    background-color: #2b2a2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+}
+
+.topo {
+    background-color: black; /* Cor de fundo do topo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: left; /* Centraliza o texto */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 120px; /* Ajuste o tamanho da imagem */
+    height: 120px;
+    margin-right: 20px; /* Espaço entre a imagem e o nome */
+}
+
+.projeto{
+    text-align: right;
+}
+
+.hr-left {
+    width: 75%;
+    margin-left: 0;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+a {
+    color: #00aaff; /* Azul claro para os links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0077cc; /* Azul mais escuro quando passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px; /* Adiciona um pequeno recuo nas listas */
+    list-style-type: square; /* Altere o estilo das listas para quadrado */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease-in-out; /* Animação suave */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente a imagem ao passar o mouse */
+}
+
